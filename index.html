@@ -5,6 +5,136 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Оно тебе надо — аукцион вещей, в которые никто не верил</title>
+    <link rel="stylesheet" href="styles/global.css">
+    <link rel="stylesheet" href="fonts/fonts.css">
+    <link rel="stylesheet" href="styles/style.css">
   </head>
-  <body></body>
+  <body>
+    <header class="header">
+      <nav class="header__menu">
+          <ul class="header__links-list">
+            <li class="header__links-list-item_no-bullit header__links-list-item">
+              <a class="header__link_active header__link">главная</a>
+            </li>
+            <li class="header__links-list-item">
+              <a class="header__link">посмотреть лоты</a>
+            </li>
+            <li class="header__links-list-item">
+              <a class="header__link">об аукционе</a>
+            </li>
+          </ul>
+        </nav>
+        <div class="header__logo">
+          <a class="header__logo-link">
+            <img
+              class="header__logo-image"
+              src="images/logo-black.svg"
+              alt="logo-black"
+            >
+          </a>
+        </div>
+        <address class="address header__address">
+          <ul class="address__list">
+            <li class="address__list-item">
+              <a class="address__list-item-link href="tel:+99995555555">+9 999 555 5555</a>
+            </li>
+            <li class="address__list-item">
+              <a class="address__list-item-link" href="mailto:info@sobaka.ge">info@sobaka.ge</a>
+            </li>
+            <li class="address__list-item">
+              наб. Принсенграхт 263- 265, Амстердам
+            </li>
+          </ul>
+        </address>
+    </header>
+  
+  <!-- Main section -->
+
+    <!-- Cover section -->
+    <main class="main">
+      <section class="cover">
+        <div class="overlay">
+        </div>
+        <div class="cover__title">
+          <h1 class="letter-spacing-extended aligned_text">
+            <span class="aligned-text_left">оно</span>
+            <span class="aligned-text_center">тебе</span>
+            <span class="aligned-text_right">надо</span>
+          </h1>
+        </div>
+        <div class="cover__image">
+          <img
+            src="images/cover.jpg"
+            alt="cover"
+          >
+        </div>
+        <div class="cover__description">
+          <div class="cover__description-text">
+            <span class="letter-spacing-extended">Аукцион вещей, в которые никто не верил</span>
+          </div>
+          <button class="bet-button">
+            сделать ставку
+          </button>
+        </div>
+      </section>
+
+      <!-- Lots section -->
+      <section class="lots">
+        <div class="lots__heading">
+          <h1 class="lots__heading-text">
+            лоты
+          </h1>
+        </div>
+        <ul class="lots__card-list">>
+          <li class="lots__card-list-item">
+            <a class="card-link">
+              <article class="card">
+                <div class="overlay card_type_film">
+                  <img
+                    src="images/card-lot-01.jpg"
+                  >
+                </div>
+              </article>
+            </a>
+          </li>
+          <li class="lots__card-list-item">
+            <a class="card-link">
+              <article class="card">
+                <div class="overlay card_type_book">
+                  <img
+                    src="images/card-lot-02.jpg"
+                  >
+                </div>
+              </article>
+            </a>
+          </li>
+          <li class="lots__card-list-item">
+            <a class="card-link">
+              <article class="card">
+                <div class="overlay card_type_picture">
+                  <img
+                    src="images/card-lot-03.jpg"
+                  >
+                </div>
+                <div class="card__title">
+                  <h2 class="card__title-text">
+                    
+                  </h2>
+                </div>
+                <div class="lots__look-more">
+                  <a class="lots__look-more-link">
+                    посмотреть больше
+                  </span>
+                </div>
+              </article>
+            </a>
+          </li>
+        </ul>
+
+      </section>
+    </main>
+    <footer class="footer">
+
+    </footer>
+  </body>
 </html>
